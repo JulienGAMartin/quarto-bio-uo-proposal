@@ -1,0 +1,66 @@
+---
+title: My proposal
+subtitle: a study of awesomeness
+author: Bob Hette
+date: last-modified
+affiliation: Department of Biology
+comps-proposal: false # or false
+committee:
+  - name: Julien Martin
+    role: supervisor 
+  - name: member 2
+    role: internal
+  - name: member 3
+    role: external
+degree: PhD # or MSc
+
+format:
+  bio-uo-proposal-pdf:
+    toc: true
+---
+
+# Introduction
+
+# Research objectives and hypothesis
+
+# Methods
+
+# Phenomenon
+The subject matter to be addressed. One paragraph is often enough. A single citation for background is useful, for example.\cite{HenrichMcElreath:2003} Additional references can be included at the end bibliography by using \verb|\nocite|. \nocite{NBGA2005}
+
+## Theoretical Perspective
+The framework for explaining the phenomenon. What are the implications of theory? If more than one theory is relevant, how do the implications differ? What are the current holes in the theory or theories?
+
+# Approach
+Modeling and empirical research approach to address the theory/ies nominated above. Important thing is to \emph{justify} the approach in terms of theory. 
+
+## Specifics of Approach
+Outline any special skills, equipment, or techniques that will be required. This includes, in the case of field research, a paragraph on the background of the field location. Data analysis approach needs a sketch. Can use citation\cite{Merowetal2014} for further detail.
+
+# Expected Products
+A list of the (usually 3) articles expected for completion of the PhD. Think of each as a fantasy abstract.
+
+1. The Evolution of Human Uniqueness
+  There is wide agreement that humans are unique. But it is rarely asked: Have they always been unique? In this paper, we derive a general uniqueness theorem that states that any unique species must have been less unique at some point in the past. This theorem has implications for the achievement of world peace.
+
+1. Niche Construction, Disease Transmission, and Global Warming: Chaos Deconstructs the Block Chain
+  How many buzz words can be combined in a title? In this paper, we find that the natural limit on buzz words in any specific scholarly field is always given by the triangular number $T_n$ where $n$ is one more than the number of tenured faculty in the field.
+
+1. A Bayesian Hierarchical Survival Analysis of Counting Sheep
+  Just like all those other models of counting sheep, but this one will be Bayesian.
+
+# Schedule
+
+Outline of the calendar for the work. This is necessarily rough and subject to change.
+
+Use table or gant chart
+
+## Completed to date
+
+## Six month plan
+
+## Course selection
+
+# References
+::: {refs}
+:::
