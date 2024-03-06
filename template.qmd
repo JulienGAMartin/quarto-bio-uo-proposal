@@ -21,24 +21,24 @@ format:
 
 # Introduction
 
-# Research objectives and hypothesis
+It provides the scientific basis for the study and a (brief) review of the current literature, 
+the key question(s) for you research leading -up to the next section about your specific hypotheses or objectives
 
-# Methods
+# Research objectives and hypotheses
 
-# Phenomenon
-The subject matter to be addressed. One paragraph is often enough. A single citation for background is useful, for example.\cite{HenrichMcElreath:2003} Additional references can be included at the end bibliography by using \verb|\nocite|. \nocite{NBGA2005}
+Specific hypotheses (in the case of hypothesis-testing science) or objectives (in the case of 
+descriptive science), and the underlying logic, for each proposed thesis chapter (minimum three 
+for PhD students)
 
-## Theoretical Perspective
-The framework for explaining the phenomenon. What are the implications of theory? If more than one theory is relevant, how do the implications differ? What are the current holes in the theory or theories?
+# Proposed methodologies
 
-# Approach
-Modeling and empirical research approach to address the theory/ies nominated above. Important thing is to \emph{justify} the approach in terms of theory. 
+Include outlines of data collection and data analysis
 
-## Specifics of Approach
-Outline any special skills, equipment, or techniques that will be required. This includes, in the case of field research, a paragraph on the background of the field location. Data analysis approach needs a sketch. Can use citation\cite{Merowetal2014} for further detail.
+Outline any special skills, equipment, or techniques that will be required. 
 
 # Expected Products
-A list of the (usually 3) articles expected for completion of the PhD. Think of each as a fantasy abstract.
+
+A list of the (usually 1/3) articles expected for completion of the MSC/PhD. Think of each as a fantasy abstract.
 
 1. The Evolution of Human Uniqueness
   There is wide agreement that humans are unique. But it is rarely asked: Have they always been unique? In this paper, we derive a general uniqueness theorem that states that any unique species must have been less unique at some point in the past. This theorem has implications for the achievement of world peace.
@@ -49,17 +49,21 @@ A list of the (usually 3) articles expected for completion of the PhD. Think of 
 1. A Bayesian Hierarchical Survival Analysis of Counting Sheep
   Just like all those other models of counting sheep, but this one will be Bayesian.
 
+# Scientific value and rationale for the research
+
+# Course selection
+
+
 # Schedule
 
 Outline of the calendar for the work. This is necessarily rough and subject to change.
-
-Use table or gant chart
+Usually include a Gantt chart
 
 ## Completed to date
 
 ## Six month plan
 
-## Course selection
+
 
 # References
 ::: {refs}
