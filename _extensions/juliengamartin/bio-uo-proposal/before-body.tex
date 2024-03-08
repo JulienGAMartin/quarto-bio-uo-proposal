@@ -8,23 +8,23 @@
       \par}%
     }%
     \vskip 1em
-     {%
+    {%
       \usekomafont{subtitle}{%
         \mySubtitle% <- subtitle
       \par}%
     }%
-    \vskip 3em
+      \vskip 3em
       \centerline{\includegraphics[width=12cm]{_extensions/juliengamartin/bio-uo-proposal/uOttawa-crop.png}}
-   \vskip 3em
+      \vskip 3em
     {
       \usekomafont{author}{
-        $if(comps-proposal)$
-    Comprehensive exam proposal \par
-    $else$
-    Research proposal
-    $endif$
-    by \par
-    }
+      $if(comps-proposal)$
+        Comprehensive exam proposal \par
+        $else$
+        Research proposal
+        $endif$
+        by \par
+      }
     }
     {%
       \usekomafont{author}{%
@@ -32,19 +32,24 @@
       }%
     }%
     {\usekomafont{date}{\myDate \par}}%
-    \vskip 2em
+      \vskip 2em
     {
       \usekomafont{author}{%
-      Committe members: \par
+      $if(comps-proposal)$
+        Committe members: \par
+        $else$
+        Thesis Advisory Committee members: \par
+      $endif$
       \lineskip 0.75em
       \committee \par
       }
     }%
-\vspace*{\fill}
-    {$if(comps-proposal)$
-      A proposal submitted as a partial requirement for a \myDegree \ degree 
+    \vspace*{\fill}
+    {
+
+      A proposal submitted as a partial requirement for a \myDegree \ degree \\
       at the University of Ottawa, \myAff \par
-      $endif$
+
     }%
   \end{center}
   \clearpage

@@ -1,4 +1,6 @@
-\newcommand\committee{$for(committee)$$it.name$$if(it.role)$ ($it.role$)$endif$\\$endfor$}
+\newcommand\committee{
+  $for(committee)$$it.name$$if(it.role)$ ($it.role$)$endif$\\$endfor$
+  }
 \newcommand*{\myTitle}{$title$}
 \newcommand*{\mySubtitle}{$subtitle$}
 \newcommand*{\myAuthor}{$author$}
