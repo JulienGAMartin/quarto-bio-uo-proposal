@@ -9,9 +9,11 @@ committee:
   - name: Julien Martin
     role: supervisor 
   - name: member 2
-    role: internal
+    role: TAC member
   - name: member 3
-    role: external
+    role: TAC member
+  - name: member 4
+    role: external examiner
 degree: PhD # or MSc
 
 # Bibliography style information
