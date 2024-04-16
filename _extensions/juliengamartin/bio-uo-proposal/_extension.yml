@@ -6,7 +6,7 @@ contributes:
   formats:
     pdf:
       documentclass: scrartcl
-      pdf-engine: pdflatex
+      pdf-engine: xelatex
       papersize: letter
       fontsize: 11pt
       geometry:
@@ -20,6 +20,7 @@ contributes:
 #        - before-title.tex
         - title.tex
         - before-body.tex
+        - before-title.tex
         - toc.tex
 #      lof: true
 #      lot: true

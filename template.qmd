@@ -50,6 +50,43 @@ Include outlines of data collection and data analysis
 Outline any special skills, equipment, or techniques that will be
 required.
 
+In case you want to add a wide table that needs to be on a landscape page you can do like in @tbl-sideway. Have a look at the `qmd` for the code.
+
+You need to put the table in a pandoc div (delimited by :::) indicating the side way rotation
+
+It also works for figures just use `sidewaysfigure`
+instead of `sidewaystable`
+
+::: {.sidewaystable data-latex=""}
+
+```{r}
+#| label: tbl-sideway
+#| echo: false
+#| tbl-cap: This is a wide table
+library(gt)
+exibble |>
+  gt(
+    rowname_col = "row",
+    groupname_col = "group",
+    locale = "fr"
+  ) |>
+  fmt_number() |>
+  fmt_date(
+    columns = date,
+    date_style = "yMEd"
+  ) |>
+  fmt_datetime(
+    columns = datetime,
+    format = "EEEE, MMMM d, y",
+    locale = "en"
+  ) |>
+  tab_options(table.width = pct(100))
+
+```
+
+:::
+
+
 # Expected Products
 
 A list of the (usually 1/3) articles expected for completion of the
@@ -82,6 +119,7 @@ MSC/PhD. Think of each as a fantasy abstract.
 # Scientific value and rationale for the research
 
 # Course selection
+
 <!-- not necessarily needed for comprehensive exam proposal-->
 
 # Schedule
@@ -92,9 +130,6 @@ subject to change. Usually include a Gantt chart
 ## Completed to date
 
 ## Six month plan
-
-
-
 
 {{< pagebreak >}}
 
