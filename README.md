@@ -6,13 +6,13 @@
 #  You might need the development version of the quarto R package that you can install with
 remotes::install_github("quarto-dev/quarto-r")
 
-quarto::quarto_use_template("juliengamartin/quarto-bio-uo-thesis")
+quarto::quarto_use_template("juliengamartin/quarto-bio-uo-proposal")
 ```
 
 or in a terminal
 
 ``` bash
-quarto use template juliengamartin/quarto-bio-uo-thesis
+quarto use template juliengamartin/quarto-bio-uo-proposal
 ```
 
 This will install the extension and create an example qmd file that you can use as a starting place for your proposal.
