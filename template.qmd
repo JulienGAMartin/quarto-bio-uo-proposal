@@ -52,7 +52,7 @@ required.
 
 In case you want to add a wide table that needs to be on a landscape page you can do like in @tbl-sideway. Have a look at the `qmd` for the code.
 
-You need to put the table in a pandoc div (delimited by :::) indicating the side way rotation
+You need to put the table in a pandoc div (delimited by `:::`) indicating the side way rotation
 
 It also works for figures just use `sidewaysfigure`
 instead of `sidewaystable`
